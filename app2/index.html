@@ -1,0 +1,462 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda aplicación móvil</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app2.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.is"></script>
+  <script src="phonegap.js"></script>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/historia3.jpg','../../../../imagenes/telcel2.jpg','../../../../imagenes/mo2.png','../../../../imagenes/iu2.jpg','imagenes/alta1.jpg','imagenes/alta8.jpg','imagenes/media7.jpg','imagenes/baja76.jpg')">
+
+   <div data-role="page" id="Principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"      data-back-btn-theme="a">
+        <h1> Telefonos Celulares</h1>
+      </div>
+       <div>
+       <ul data-role="listview"  data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child  ui-last-child">
+         <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>¿Que es un telefono Celular? </h2>
+            <p> se muestra la definicion</p>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Historia del telefono Celurar</h2>
+             <p> Muestra Que paso enla historia</p>
+           </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+          <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Clasificacion de los celulares de acuerdo con la gama</h2>
+             <p> Muestra com se clasifican los celulares por gamas</p>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Compañias de México que manejan el servicio de la telefonia celular</h2>
+             <p> Mustra cuales companias maneja México </p>
+           </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Telefonos del Futuro</h2>
+             <p> Muestra que Celulares van a salir a la venta</p>
+           </a>
+          </li>
+          </ul>     
+        </div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+           <img src="imagenes/Logo.png" width="46" height="46">
+        </div>
+        <div>
+           <h4> Aplicación dos</h4>
+           <H4> Jaqueline Henández Romero </H4>
+        </div>
+      </div>
+      </div>
+      <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>¿Que es el telefono celular?</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+         <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>teléfono celular</h1>
+          <div>
+           <img src="imagenes/definicion3.jpg" width="50%" height="50%">
+        </div>
+         </div>
+       </div>
+        </div>
+      </div>
+      <div>
+      La telefonía móvil o telefonía celular es un medio de comunicación inalámbrico a través de ondas electromagnéticas. Como cliente de este tipo de redes, se utiliza un dispositivo denominado teléfono móvil o teléfono celular. En la mayor parte de Hispanoamérica se prefiere la denominación teléfono celular o simplemente celular, aunque en Cuba se dice de ambas formas, y mientras que en España es más común el término teléfono móvil o simplemente móvil.
+      <div>
+       <center> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/definicion2.jpg',1)"><img src="imagenes/definicion1.jpg" width="326" height="401" id="Image5"></a></center> </div>
+      </div>
+      </div>
+      
+<div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+      </div>
+     </div>
+   
+  
+   <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>historia del telefono celular</h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+        <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>teléfono celular</h1>
+          <div>
+           <img src="imagenes/historia1.png" width="50%" height="50%">
+        </div>
+         </div>
+       </div>
+        </div>
+      </div>
+          <div><h4> La evolución del teléfono móvil ha permitido disminuir su tamaño y peso, desde el Motorola DynaTAC, el primer teléfono móvil en 1983 que pesaba 800 gramos, a los actuales más compactos y con mayores prestaciones de servicio. El desarrollo de baterías más pequeñas y de mayor duración, pantallas más nítidas y de colores, la incorporación de software más amigable, hacen del teléfono móvil un elemento muy apreciado en la vida moderna.
+
+El avance de la tecnología ha hecho que estos aparatos incorporen funciones que no hace mucho parecían futuristas, como juegos, reproducción de música MP3 y otros formatos, correo electrónico, SMS, agenda electrónica PDA, fotografía digital y video digital, videollamada, navegación por Internet, GPS, y hasta Televisión digital. Las compañías de telefonía móvil ya están pensando nuevas aplicaciones para este pequeño aparato que nos acompaña a todas partes. Algunas de esas ideas son: medio de pago, localizador e identificador de personas.
+</h4></div>
+<div>
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/historia3.jpg',1)"><img src="imagenes/historia2.jpg" width="399" height="277" id="Image7"></a> </center></div>
+      </div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+      </div>
+     
+   </div>
+    
+   <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>clasificacion por gama</h1>
+        </div>
+<div data-role="content" align="center">
+        <div>
+        <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>gama alta</h1>
+          <div>
+           <img src="imagenes/alta4.jpg" width="58%" height="41%">
+        </div>
+         </div>
+       </div>
+        </div>
+        </div>
+         <div>
+          <center> <table width="582" border="1">
+  <tr>
+    <td width="127">Nombre</td>
+    <td width="93">Galaxys7</td>
+    <td width="71">P10<br></td>
+    <td width="133">10</td>
+  </tr>
+  <tr>
+    <td><strong>Pantalla</strong></td>
+    <td>5.1 super Amoled</td>
+    <td>5.15"</td>
+    <td>5.2" Super LCD5</td>
+  </tr>
+  <tr>
+    <td><strong>Resolución</strong></td>
+    <td>2560x1440 px</td>
+    <td>1920 x 1080 px</td>
+    <td>2560 x 1440 px</td>
+  </tr>
+  <tr>
+    <td><strong>Procesador</strong></td>
+    <td>exynos 8890</td>
+    <td>Kirin 960</td>
+    <td>Snapdragon 820<br></td>
+  </tr>
+  <tr>
+    <td><strong>Memoria</strong></td>
+    <td>4GB</td>
+    <td>4 GB</td>
+    <td>4GB</td>
+  </tr>
+  <tr>
+    <td><strong>Almacenamiento</strong></td>
+    <td>32GB</td>
+    <td>64 GB</td>
+    <td>32GB</td>
+  </tr>
+  <tr>
+    <td><strong>Batería</strong></td>
+    <td>3000mAh</td>
+    <td>3200 mAh</td>
+    <td>3000 mAh</td>
+  </tr>
+  <tr>
+    <td><strong>Cámaras</strong></td>
+    <td>12Mpx y5 Mpx</td>
+    <td>12 Mpx y 8 Mpx</td>
+    <td>12 Mpx y 5 Mpx</td>
+  </tr>
+  <tr>
+    <td><strong>SO</strong></td>
+    <td>android 6.0</td>
+    <td>Android 7.1</td>
+    <td>Android 6.0</td>
+  </tr>
+  <tr>
+    <td><strong>Actualizable a</strong></td>
+    <td>---</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td><strong>Compañía</strong></td>
+    <td>Samsung</td>
+    <td>Huawei</td>
+    <td>HTC</td>
+  </tr>
+  <tr>
+    <td><strong>Precio</strong></td>
+    <td>430 USD</td>
+    <td>629 EUR</td>
+    <td>480 USD</td>
+  </tr>
+</table></center>
+</div>
+<div>
+ <center>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/alta8.jpg',1)"><img src="imagenes/alta5.jpg" width="401" height="285" id="Image9"></a>
+ <center> </div>
+      <div>
+      <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>gama media</h1>
+          <div>
+           <img src="imagenes/media5.jpg" width="69%" height="43%">
+        </div>
+        </div>
+       </div>
+       </div>
+       <div>
+      <center> <table width="727" border="1">
+  <tr>
+    <td width="147"><strong>Nombre:</strong></td>
+    <td width="192"><h2><strong>Moto X Play</strong></h2></td>
+    <td width="170"><h2>Alcatel Idol 3</h2></td>
+    <td width="226"><h2>Xperia M5</h2></td>
+  </tr>
+  <tr>
+    <td><strong>Pantalla:</strong></td>
+    <td>5.5 pulgadas Full HD (1,920 x 1,080p)</td>
+    <td> 5.5 pulgadas Full HD</td>
+    <td>5 pulgadas con resolución Full HD</td>
+  </tr>
+  <tr>
+    <td><strong>Procesador:</strong></td>
+    <td>Snapdragon 615 de ocho núcleos</td>
+    <td> Snapdragon 615 de ocho núcleos a 1.5Ghz</td>
+    <td> Chip MediaTek Helio X10 con ocho núcleos independientes de 64 bits</td>
+  </tr>
+  <tr>
+    <td><strong>Almacenamiento y RAM:</strong></td>
+    <td>16GB/32GB expandible con microSD a 128GB; 2GB de RAM</td>
+    <td>16GB de almacenamiento y 2GB de RAM</td>
+    <td> 16GB expandible con microSD a 200GB; 2GB de RAM</td>
+  </tr>
+  <tr>
+    <td><strong>Cámara:</strong></td>
+    <td>21MP y frontal de 5MP</td>
+    <td>13MP y frontal de 8MP</td>
+    <td>21MP y frontal de 13MP</td>
+  </tr>
+  <tr>
+    <td><strong>Batería:</strong></td>
+    <td> 3660mAh</td>
+    <td>2910mAh</td>
+    <td>2600mAh</td>
+  </tr>
+  <tr>
+    <td height="60"><strong>Sistema operativo:</strong></td>
+    <td>Android 5.1.1 Lollipop</td>
+    <td><p>Android 5.0 Lollipop</p></td>
+    <td>Android 5.0 Lollipop</td>
+  </tr>
+</table></center>
+       </div>
+        <div>
+       <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/media7.jpg',1)"><img src="imagenes/media5.jpg" width="304" height="315" id="Image11"></a> </center></div>
+      <div>
+<div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+           <h1>gama baja</h1>
+          <div>
+           <img src="imagenes/baja4.jpg" width="64%" height="44%">
+        </div>
+        </div>
+       </div>
+       </div>
+      <div>
+      <center><table width="830" border="1">
+  <tr>
+    <td width="148"><h2>Nombre:</h2></td>
+    <td width="251"><h2>Moto G Turbo Edition</h2></td>
+    <td width="180"><h2>Alcatel Pop 4</h2></td>
+    <td width="223"><h2>Xiaomi RedMi 2 Pro</h2></td>
+  </tr>
+  <tr>
+    <td><strong>Pantalla:</strong></td>
+    <td> 5 pulgadas HD (1,280x720p)</td>
+    <td> 5 pulgadas HD (1,280x720p)</td>
+    <td>4.7  pulgadas, resolución HD&nbsp;(1,280x720p</td>
+  </tr>
+  <tr>
+    <td><strong>Procesador:</strong></td>
+    <td> Snapdragon 615 de núcleo ocho núcleos dividido en dos módulos de 1.7Ghz y 1Ghz</td>
+    <td>MSM8909</td>
+    <td><p>Snapdragon Quad-Core de  64 bits</p></td>
+  </tr>
+  <tr>
+    <td><strong>Almacenamiento y RAM:</strong></td>
+    <td> 16GB expandible con microSD a 32GB; 2GB de RAM</td>
+    <td>8GB expandible con microSD a 32GB; 1GB de RAM</td>
+    <td>16GB expandible con microSD a 32GB; 2GB de RAM</td>
+  </tr>
+  <tr>
+    <td><strong>Bateria:</strong></td>
+    <td> 13MP y frontal de 5MP</td>
+    <td>&nbsp;2500mAh</td>
+    <td>8MP y frontal de 2MP</td>
+  </tr>
+  <tr>
+    <td><strong>Cámara:</strong></td>
+    <td> 13MP y frontal de 5MP</td>
+    <td>8MP y frontal de 5MP</td>
+    <td>&nbsp;2200mAh</td>
+  <tr>
+    <td height="70"><strong>Sistema operativo:</strong>&nbsp;</td>
+    <td>Android 5.1 Lollipop  actualizable a Android 6.0 Marshmallow</td>
+    <td>Android 6.0 Marshmallow</td>
+    <td>Android 4.4.4 KitKat</td>
+  </tr>
+</table></center>
+</div>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/baja76.jpg',1)"><img src="imagenes/baja6.jpg" width="423" height="624" id="Image13"></a> </div>
+   </div>
+    
+<div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>comañías en méxico de servicios de telefonia celular</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>TELCEL</h2>
+          <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/telcel2.jpg',1)"><img src="imagenes/telcel1.jpg" width="279" height="223" id="Image12"></a> </div>
+           <div>
+           <center><h1><a href="http://www.telcel.com/">Telcel</a></h1></center>
+           </div>
+           <div>
+           <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> compañía telcel</h1>
+          <div>
+           <img src="imagenes/tecel3.jpg" width="50%" height="50%">
+           </div>
+         </div>
+       </div>
+           </div>
+         </div>
+      </div>
+      
+      <div>
+      <center> <h2>movistar</h2></center>
+      <div>
+       <center> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/mo2.png',1)"><img src="imagenes/mo1.jpg" width="770" height="433" id="Image14"></a></center></div>
+        <div>
+        <center><h1><a href="http://www.movistar.com.mx/">Movistar</a></h1></center>
+        </div>
+        <div>
+        <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> compañía movistar</h1>
+          <div>
+          <center> <img src="imagenes/mo3.jpg" width="50%" height="50%"></center>
+           </div>
+         </div>
+       </div>
+        </div>
+      </div>
+      <center>
+      <div>
+      <h2> iusacell</h2>
+      </div>
+      <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/iu2.jpg',1)"><img src="imagenes/iu1.jpg" width="600" height="330" id="Image16"></a> </div>
+        <div>
+        <center><h1><a href="https://web.iusacell.com.mx/PortalAutoservWeb/
+">Iusacell</a></h1></center>
+        </div>
+        <div>
+        <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> compañía iusacell</h1>
+          <div>
+           <img src="imagenes/iu3.jpg" width="50%" height="50%">
+           </div>
+         </div>
+       </div>
+        </div>
+      </center>
+      
+     <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+      
+     </div>
+   </div>
+<div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1> Teléfonos del futuro</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2> Teniendo en cuenta lo que los cristales y las pantallas han tenido que evolucionar para que estos diseños son posibles, puede que en el futuro nos encontremos con pantallas con una curvatura mayor, o con formas impensables a día de hoy. Aunque, a pesar de estos avances, la pregunta que nos ronda por la cabeza sigue siendo la misma… ¿conseguiremos sacarle una utilidad de verdad a la pantalla curva?<br>
+Aunque, por otra parte, una posibilidad que tampoco hay que descartar es que las pantallas curvas sean simplemente un paso intermedio hacia otro concepto que, aunque aún no hemos visto aplicado al mismo nivel, resultaría mucho más atractivo: las pantallas flexibles, con cristales capaces de doblarse a voluntad del usuario. Desde luego, hablamos de algo con lo que llevamos soñando muuuuucho tiempo.
+Esto abriría la puerta a diseños impensables hasta ahora, dando lugar a smartphones o tablets capaces de doblarse o plegarse según nuestras.</h2>
+          <p><h2>A estas alturas,  parece&nbsp;improbable que los smartphones vayan a reducir en tamaño&nbsp;en un  futuro a corto plazo, pero&nbsp;<strong>la miniaturización sigue teniendo&nbsp;sus  ventajas</strong>: reducir el tamaño de los marcos para conseguir diseños que  aprovechen mejor la parte frontal, reducir el grosor a medida que se consigue  disminuir&nbsp;el tamaño de los componentes internos o, incluso,  detalles&nbsp;tan insignificantes a primera vista&nbsp;como hacer que la cámara  no sobresalga por encima del teléfono sin sacrificar por ello la calidad de la  imagen.</h2></p>
+          <p>&nbsp; </p>
+         </div>
+         <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/2.jpg',1)"><img src="imagenes/1.jpg" width="550" height="550" id="Image18"></a> </div>
+          <div>
+          <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> teléfonos del futuro</h1>
+          <div>
+           <img src="imagenes/3.jpg" width="50%" height="50%">
+           </div>
+         </div>
+       </div>
+          </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+     
+     </div>
+    </div>
+      </body>
+</html>

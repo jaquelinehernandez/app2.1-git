@@ -1,0 +1,528 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda aplicación móvil</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app2.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.is"></script>
+  <script src="phonegap.js"></script>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/historia3.jpg','../../../../imagenes/telcel2.jpg','../../../../imagenes/mo2.png','../../../../imagenes/iu2.jpg','imagenes/alta1.jpg')">
+
+   <div data-role="page" id="Principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"      data-back-btn-theme="a">
+        <h1> Telefonos Celulares</h1>
+      </div>
+       <div>
+       <ul data-role="listview"  data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child  ui-last-child">
+         <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>¿Que es un telefono Celular? </h2>
+            <p>  Muestra la definicion</p>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Historia del telefono Celurar</h2>
+             <p> Muestra Que paso en la historia</p>
+           </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+          <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Clasificacion de los celulares de acuerdo con la gama</h2>
+             <p> Muestra como se clasifican los celulares por gamas</p>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Compañias de México que manejan el servicio de la telefonia celular</h2>
+             <p> Muestra cuales companias maneja México </p>
+           </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Telefonos del Futuro</h2>
+             <p> Muestra que Celulares van a salir a la venta</p>
+           </a>
+          </li>
+          </ul> 
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/alta4.jpg" alt="alta4" title="alta4" id="wows1_3"/></li>
+		<li><img src="data1/images/baja4.jpg" alt="baja4" title="baja4" id="wows1_4"/></li>
+		<li><img src="data1/images/definicion3.jpg" alt="definicion3" title="definicion3" id="wows1_5"/></li>
+		<li><img src="data1/images/iu1.jpg" alt="iu1" title="iu1" id="wows1_6"/></li>
+		<li><img src="data1/images/media8.jpg" alt="media8" title="media8" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/mo1.jpg" alt="cssslider" title="mo1" id="wows1_8"/></a></li>
+		<li><img src="data1/images/telcel2.jpg" alt="telcel2" title="telcel2" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="alta4"><span><img src="data1/tooltips/alta4.jpg" alt="alta4"/>4</span></a>
+		<a href="#" title="baja4"><span><img src="data1/tooltips/baja4.jpg" alt="baja4"/>5</span></a>
+		<a href="#" title="definicion3"><span><img src="data1/tooltips/definicion3.jpg" alt="definicion3"/>6</span></a>
+		<a href="#" title="iu1"><span><img src="data1/tooltips/iu1.jpg" alt="iu1"/>7</span></a>
+		<a href="#" title="media8"><span><img src="data1/tooltips/media8.jpg" alt="media8"/>8</span></a>
+		<a href="#" title="mo1"><span><img src="data1/tooltips/mo1.jpg" alt="mo1"/>9</span></a>
+		<a href="#" title="telcel2"><span><img src="data1/tooltips/telcel2.jpg" alt="telcel2"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      </div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+           <img src="imagenes/Logo.png" width="46" height="46">
+        </div>
+        <div>
+           <h4> Aplicación dos</h4>
+           <H4> Jaqueline Henández Romero </H4>
+        </div>
+      </div>
+      </div>
+
+      <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>¿Que es el teléfono celular?</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>Es un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. Se denomina celular debido a las antenas repetidoras que conforman la red, cada una de las cuales es una célula, si bien existen redes telefónicas móviles satelitales. Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar. Aunque su principal función es la comunicación de voz, como el teléfono convencional, su rápido desarrollo ha incorporado otras funciones como son cámara fotográfica, agenda, acceso a internet, reproducción de video e incluso GPS y reproductor mp3.En la mayor parte de Hispanoamérica se prefiere la denominación teléfono celular o simplemente celular, aunque en Cuba se dice de ambas formas, y mientras que en España es más común el término teléfono móvil o simplemente móvil.</h2>
+      </div>
+      </div>
+      <div>
+       <center> 
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','imagenes/definicion2.jpg',1)"><img src="imagenes/definicion1.jpg" width="252" height="229" id="Image39"></a>
+       </center></div>
+        <div>
+        <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>teléfono celular</h1>
+          <div>
+          <center> <img src="imagenes/definicion3.jpg" width="33%" height="46%"></center>
+        </div>
+         </div>
+       </div>
+        </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+      </div>
+     </div>
+   
+  
+   <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>historia del teléfono celular</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+           <p>En las primeras etapas de la ingeniería de radio, se concibió un servicio de radio móvil de mano. En 1917, el inventor finlandés Eric Tigerstedt presentó una patente para un &quot;Teléfono plegable de bolsillo con un micrófono de carbono muy delgado&quot;. Los primeros predecesores de los teléfonos celulares incluyen las comunicaciones de radio analógicas de barcos y trenes. La carrera para crear dispositivos telefónicos portátiles realmente comenzó después de la Segunda Guerra Mundial, con la evolución que tiene lugar en muchos países. Los avances de la telefonía móvil se han trazado en &quot;generaciones&quot; sucesivas, empezando por los servicios &quot;0G&quot; (generación cero), tales como Servicio de Telefonía Móvil de Sistemas de Bell y su sucesor, el Servicio de Telefonía Móvil Mejorada. Estos sistemas &quot;0G&quot; no eran celular, soportaban algunas llamadas simultáneas, y eran muy caros.<br>
+           En las primeras etapas de la ingeniería de radio, se concibió un servicio de radio móvil de mano. En 1917, el inventor finlandés Eric Tigerstedt presentó una patente para un &quot;Teléfono plegable de bolsillo con un micrófono de carbono muy delgado&quot;. Los primeros predecesores de los teléfonos celulares incluyen las comunicaciones de radio analógicas de barcos y trenes. La carrera para crear dispositivos telefónicos portátiles realmente comenzó después de la Segunda Guerra Mundial, con la evolución que tiene lugar en muchos países. Los avances de la telefonía móvil se han trazado en &quot;generaciones&quot; sucesivas, empezando por los servicios &quot;0G&quot; (generación cero), tales como Servicio de Telefonía Móvil de Sistemas de Bell y su sucesor, el Servicio de Telefonía Móvil Mejorada. Estos sistemas &quot;0G&quot; no eran celular, soportaban algunas llamadas simultáneas, y eran muy carosEl primer teléfono celular de mano fue presentado por Motorola en 1973. La primera red celular automatizada comercial fue lanzada en Japón por Nippon Telegraph and Telephone en 1979. Esto fue seguido en 1981 por el lanzamiento simultáneo del sistema de Telefonía Móvil Nórdica (NMT) en Dinamarca, Finlandia, Noruega y Suecia.6 Muchos otros países siguieron aplicándose en la primera mitad de la década de 1980. Estos sistemas de primera generación (1G) podían hacer llamadas simultáneas más lejos, pero todavía se utilizaba la tecnología analógica.</p>
+           <p>En 1991, la segunda generación (2G) de tecnología celular digital fue lanzada en Finlandia por Radiolinja en el estándar GSM. Esto provocó la competencia en el sector ya que los nuevos operadores desafiaron a los operadores de red 1G existentes.</p>
+           <p>Diez años más tarde, en 2001, la tercera generación (3G) fue lanzada en Japón por NTT DoCoMo en el estándar WCDMA. Esto fue seguido de 3.5G, 3G+ o 3G turbo mejoras basadas en el acceso de paquetes de alta velocidad (HSPA) de la familia, lo que permite a las redes UMTS tienen mayores velocidades de transferencia de datos y la capacidad</p>
+           <p>Para el año 2009, se hizo evidente que, en algún momento, las redes 3G se verían abrumadas por el crecimiento de las aplicaciones de banda ancha, tales como transmisión multimedia.7 En consecuencia, la industria comenzó a buscar a las tecnologías de datos de cuarta generación optimizadas, con la promesa de mejorar la velocidad hasta diez veces sobre tecnologías 3G existentes. Las dos primeras tecnologías disponibles en el mercado facturadas como 4G eran el estándar WiMAX, ofrecido en Norteamérica por Sprint, y el estándar LTE, quien se ofreció por primera vez en Escandinavia por TeliaSonera.      </p>
+           <p>&nbsp;</p>
+         </div>
+      </div>
+      <div>
+     <center> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/historia2.jpg',1)"><img src="imagenes/historia1.png" width="33%" height="26%" id="Image4"></a></center> </div>
+      <div>
+      <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> historia</h1>
+          <div>
+          <center><img src="imagenes/historia3.jpg" width="50%" height="50%"></center>
+           </div>
+         </div>
+       </div>
+      </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+      </div>
+     
+   </div>
+    
+   <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>Clasificación por gama</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>Gama alta:Se distinguen por sus exquisitas especificaciones pero no necesariamente representan una mejor experiencia al usarlos si no se elige con cuidado.<br>
+            Los mejores avances tecnológicos pueden aparecer en está gama para luego ser heredados con el tiempo a la gama media en menor medida.<br>
+           También pueden incluirse otros terminales no tan nuevos pero que siguen siendo una excelente opción en gama alta aunque no cumplan con el requisito del precio.</h2>
+          <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/alta1.jpg',1)"><img src="imagenes/alta.jpg" width="200" height="200" id="Image6"></a> </div>
+           <div>
+           <table width="582" border="1">
+  <tr>
+    <td width="127">Nombre</td>
+    <td width="93">Galaxys7</td>
+    <td width="71">P10<br></td>
+    <td width="133">10</td>
+  </tr>
+  <tr>
+    <td><strong>Pantalla</strong></td>
+    <td>5.1 super Amoled</td>
+    <td>5.15"</td>
+    <td>5.2" Super LCD5</td>
+  </tr>
+  <tr>
+    <td><strong>Resolución</strong></td>
+    <td>2560x1440 px</td>
+    <td>1920 x 1080 px</td>
+    <td>2560 x 1440 px</td>
+  </tr>
+  <tr>
+    <td><strong>Procesador</strong></td>
+    <td>exynos 8890</td>
+    <td>Kirin 960</td>
+    <td>Snapdragon 820<br></td>
+  </tr>
+  <tr>
+    <td><strong>Memoria</strong></td>
+    <td>4GB</td>
+    <td>4 GB</td>
+    <td>4GB</td>
+  </tr>
+  <tr>
+    <td><strong>Almacenamiento</strong></td>
+    <td>32GB</td>
+    <td>64 GB</td>
+    <td>32GB</td>
+  </tr>
+  <tr>
+    <td><strong>Batería</strong></td>
+    <td>3000mAh</td>
+    <td>3200 mAh</td>
+    <td>3000 mAh</td>
+  </tr>
+  <tr>
+    <td><strong>Cámaras</strong></td>
+    <td>12Mpx y5 Mpx</td>
+    <td>12 Mpx y 8 Mpx</td>
+    <td>12 Mpx y 5 Mpx</td>
+  </tr>
+  <tr>
+    <td><strong>SO</strong></td>
+    <td>android 6.0</td>
+    <td>Android 7.1</td>
+    <td>Android 6.0</td>
+  </tr>
+  <tr>
+    <td><strong>Actualizable a</strong></td>
+    <td>---</td>
+    <td>---</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td><strong>Compañía</strong></td>
+    <td>Samsung</td>
+    <td>Huawei</td>
+    <td>HTC</td>
+  </tr>
+  <tr>
+    <td><strong>Precio</strong></td>
+    <td>430 USD</td>
+    <td>629 EUR</td>
+    <td>480 USD</td>
+  </tr>
+</table>
+<div>
+<div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> gama alta</h1>
+          <div>
+           <img src="imagenes/alta2.jpg" width="50%" height="50%">
+           </div>
+         </div>
+       </div>
+</div>
+           </div>
+          <p><h2>Gama media:Aquí se ubican los SmartPhones algunos dispositivos de marcas asiáticas, dispositivos devaluados por el tiempo que tienen en el mercado (puede ser engañoso) y las propuestas conservadoras en especificaciones de marcas reconocidas que pueden hacer mucho pero no tanto.</h2> </p>
+          <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/media1.jpg',1)"><img src="imagenes/media.jpg" width="200" height="200" id="Image7"></a> </div>
+           <div>
+           <table width="727" border="1">
+  <tr>
+    <td width="147"><strong>Nombre:</strong></td>
+    <td width="192"><h2><strong>Moto X Play</strong></h2></td>
+    <td width="170"><h2>Alcatel Idol 3</h2></td>
+    <td width="226"><h2>Xperia M5</h2></td>
+  </tr>
+  <tr>
+    <td><strong>Pantalla:</strong></td>
+    <td>5.5 pulgadas Full HD (1,920 x 1,080p)</td>
+    <td> 5.5 pulgadas Full HD</td>
+    <td>5 pulgadas con resolución Full HD</td>
+  </tr>
+  <tr>
+    <td><strong>Procesador:</strong></td>
+    <td>Snapdragon 615 de ocho núcleos</td>
+    <td> Snapdragon 615 de ocho núcleos a 1.5Ghz</td>
+    <td> Chip MediaTek Helio X10 con ocho núcleos independientes de 64 bits</td>
+  </tr>
+  <tr>
+    <td><strong>Almacenamiento y RAM:</strong></td>
+    <td>16GB/32GB expandible con microSD a 128GB; 2GB de RAM</td>
+    <td>16GB de almacenamiento y 2GB de RAM</td>
+    <td> 16GB expandible con microSD a 200GB; 2GB de RAM</td>
+  </tr>
+  <tr>
+    <td><strong>Cámara:</strong></td>
+    <td>21MP y frontal de 5MP</td>
+    <td>13MP y frontal de 8MP</td>
+    <td>21MP y frontal de 13MP</td>
+  </tr>
+  <tr>
+    <td><strong>Batería:</strong></td>
+    <td> 3660mAh</td>
+    <td>2910mAh</td>
+    <td>2600mAh</td>
+  </tr>
+  <tr>
+    <td height="60"><strong>Sistema operativo:</strong></td>
+    <td>Android 5.1.1 Lollipop</td>
+    <td><p>Android 5.0 Lollipop</p></td>
+    <td>Android 5.0 Lollipop</td>
+  </tr>
+</table>
+           </div>
+           <div>
+           <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> gama media</h1>
+          <div>
+           <img src="imagenes/media2.jpg" width="50%" height="50%">
+           </div>
+         </div>
+       </div>
+           </div>
+          <p><h2>Gama baja:En está categoría entran desde marcas chinas, imitaciones de gama media o alta hasta terminales obsoletos con muy pocas excepciones.</h2></p> 
+         </div>
+      </div>
+      <div>
+      <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/baja1.jpg',1)"><img src="imagenes/baja.jpg" width="325" height="204" id="Image10"></a></center> </div>
+      <center> <div>
+      <table width="830" border="1">
+  <tr>
+    <td width="148"><h2>Nombre:</h2></td>
+    <td width="251"><h2>Moto G Turbo Edition</h2></td>
+    <td width="180"><h2>Alcatel Pop 4</h2></td>
+    <td width="223"><h2>Xiaomi RedMi 2 Pro</h2></td>
+  </tr>
+  <tr>
+    <td><strong>Pantalla:</strong></td>
+    <td> 5 pulgadas HD (1,280x720p)</td>
+    <td> 5 pulgadas HD (1,280x720p)</td>
+    <td>4.7  pulgadas, resolución HD&nbsp;(1,280x720p</td>
+  </tr>
+  <tr>
+    <td><strong>Procesador:</strong></td>
+    <td> Snapdragon 615 de núcleo ocho núcleos dividido en dos módulos de 1.7Ghz y 1Ghz</td>
+    <td>MSM8909</td>
+    <td><p>Snapdragon Quad-Core de  64 bits</p></td>
+  </tr>
+  <tr>
+    <td><strong>Almacenamiento y RAM:</strong></td>
+    <td> 16GB expandible con microSD a 32GB; 2GB de RAM</td>
+    <td>8GB expandible con microSD a 32GB; 1GB de RAM</td>
+    <td>16GB expandible con microSD a 32GB; 2GB de RAM</td>
+  </tr>
+  <tr>
+    <td><strong>Bateria:</strong></td>
+    <td> 13MP y frontal de 5MP</td>
+    <td>&nbsp;2500mAh</td>
+    <td>8MP y frontal de 2MP</td>
+  </tr>
+  <tr>
+    <td><strong>Cámara:</strong></td>
+    <td> 13MP y frontal de 5MP</td>
+    <td>8MP y frontal de 5MP</td>
+    <td>&nbsp;2200mAh</td>
+  <tr>
+    <td height="70"><strong>Sistema operativo:</strong>&nbsp;</td>
+    <td>Android 5.1 Lollipop  actualizable a Android 6.0 Marshmallow</td>
+    <td>Android 6.0 Marshmallow</td>
+    <td>Android 4.4.4 KitKat</td>
+  </tr>
+</table>
+      </div>
+      </center> 
+      <div>
+      <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> gama baja</h1>
+          <div>
+          <center> <img src="imagenes/baja2.jpg" width="25%" height="25%"></center>
+           </div>
+         </div>
+       </div>
+      </div>
+      <div data-role="footer" data-theme=""a data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+      </div>
+
+   </div>
+    
+   <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1>compañías en méxico de servicios de telefonia celular</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h3> El inicio de la telefonía móvil en México se remonta a 1977, cuando se solicitó a la SCT de México (Secretaría de Comunicaciones y Transportes) una concesión para instalar, operar y explotar un sistema de radiotelefonía móvil en el Distrito Federal. Pero no fue hasta 1981 cuando se inició la comercialización de este servicio, el cual fue conocido por el público como Teléfono en el Auto, con el cual se logró, en un lapso de ocho meses, dar servicio a 600 usuarios.
+
+Un grupo de inversionistas aportaron el capital humano necesario para cubrir el vacío de un servicio que no existía en México, el de la telefonía celular, es por ello que tuvieron que buscar varios proveedores para este objetivo, eligiendo como proveedor principal de Telcel en lo que se refería a equipos de conmutación a Ericsson. Compañía de origen sueco, empresa con más de 100 años de experiencia en redes telefónicas en México, con estándares europeos aplicados en las centrales de conmutación.
+
+Por aquel entonces el servicio de teléfono móvil era toda una novedad que solo estaba al alcance de unos pocos. Conviene recordar que fue el medio de comunicación usado por el periodista Jacobo Zabludovsky para reportar en tiempo real cuando ocurrió el terremoto de 1985 ya que este se encontraba instalado en el auto que usaba el día del siniestro.</h3>
+           </div>
+         <div>
+          <h2>TELCEL</h2>
+          <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/telcel2.jpg',1)"><img src="imagenes/telcel1.jpg" width="279" height="223" id="Image12"></a></div>
+           <div>
+             <blockquote>
+               <p>
+                 <a href="http://www.telcel.com/" target="self">telcel</a>
+               </p>
+             </blockquote>
+           </div>
+          
+           <div>
+           <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> compañía telcel</h1>
+          <div>
+           <img src="imagenes/tecel3.jpg" width="50%" height="50%">
+           </div>
+         </div>
+       </div>
+           </div>
+         </div>
+      </div>
+      
+      <div>
+      <center> <h2>movistar</h2></center>
+      <div>
+       <center> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/mo2.png',1)"><img src="imagenes/mo1.jpg" width="200" height="200" id="Image14"></a></center></div>
+       <div>
+             <center><blockquote>
+               <p>
+                 <a href="http://www.movistar.com.mx/" target="self">movistar</a>
+               </p>
+             </blockquote></center>
+           </div>
+        <div>
+        <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> compañía movistar</h1>
+          <div>
+          <center> <img src="imagenes/mo3.jpg" width="50%" height="50%"></center>
+           </div>
+         </div>
+       </div>
+        </div>
+      </div>
+      <center>
+      <div>
+      <h2> iusacell</h2>
+      </div>
+      <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/iu2.jpg',1)"><img src="imagenes/iu1.jpg" width="200" height="200" id="Image16"></a> </div>
+       <div>
+             <blockquote>
+               <p>
+                 <a href="https://www.att.com.mx/" target="self">iusacell</a>
+               </p>
+             </blockquote>
+           </div> 
+        <div>
+        <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> compañía iusacell</h1>
+          <div>
+           <img src="imagenes/iu3.jpg" width="50%" height="50%">
+           </div>
+         </div>
+       </div>
+        </div>
+      </center>
+      
+     <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+      
+     </div>
+   </div>
+ <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+           <h1> Teléfonos del futuro</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>Una tendencia que comenzó a pegar fuerte allá por el 2015, y que promete ir todavía más allá en este 2016, son las pantallas curvas: ya sea con curvatura en los bordes al estilo Samsung, o con la curvatura a lo largo de toda la pantalla estilo LG, lo cierto es que el panel curvado de las pantallas ha sido un toque curioso en cuanto a buscar una nueva forma de diferenciar los dispositivos de la competencia.
+Teniendo en cuenta lo que los cristales y las pantallas han tenido que evolucionar para que estos diseños son posibles, puede que en el futuro nos encontremos con pantallas con una curvatura mayor, o con formas impensables a día de hoy. Aunque, a pesar de estos avances, la pregunta que nos ronda por la cabeza sigue siendo la misma… ¿conseguiremos sacarle una utilidad de verdad a la pantalla curva?<br>
+Aunque, por otra parte, una posibilidad que tampoco hay que descartar es que las pantallas curvas sean simplemente un paso intermedio hacia otro concepto que, aunque aún no hemos visto aplicado al mismo nivel, resultaría mucho más atractivo: las pantallas flexibles, con cristales capaces de doblarse a voluntad del usuario. Desde luego, hablamos de algo con lo que llevamos soñando muuuuucho tiempo.
+Esto abriría la puerta a diseños impensables hasta ahora, dando lugar a smartphones o tablets capaces de doblarse o plegarse según nuestras </h2>
+         </div>
+         <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/2.jpg',1)"><img src="imagenes/1.jpg" width="50%" height="50%" id="Image18"></a> </div>
+          <div>
+          <div data-role="main" class="ui-content"> 
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> teléfonos del futuro</h1>
+          <div>
+          <center> <img src="imagenes/3.jpg" width="25%" height="50%"></center>
+           </div>
+         </div>
+       </div>
+          </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación dos, JHR</h4>
+     
+     </div>
+    </div>
+      </body>
+</html>

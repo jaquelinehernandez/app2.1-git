@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>21</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/galaxy/</ImageTemplate>
+            <ImageTemplateName>Galaxy</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#fff</TemplateColor>
+            <TemplateFont>Roboto Condensed</TemplateFont>
+            <TemplateName>galaxy</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/1.jpg</url>
+                <title>1</title>
+                <filesize>75322</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/2.jpg</url>
+                <title>2</title>
+                <filesize>38618</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/3.jpg</url>
+                <title>3</title>
+                <filesize>33244</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/alta4.jpg</url>
+                <title>alta4</title>
+                <filesize>101149</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/baja4.jpg</url>
+                <title>baja4</title>
+                <filesize>102272</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/definicion3.jpg</url>
+                <title>definicion3</title>
+                <filesize>103373</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/iu1.jpg</url>
+                <title>iu1</title>
+                <filesize>18929</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/media8.jpg</url>
+                <title>media8</title>
+                <filesize>40605</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/mo1.jpg</url>
+                <title>mo1</title>
+                <filesize>27484</filesize>
+            </Image>
+            <Image>
+                <url>I:/DAM/Segundo Parcial/aplicaciones/app2/imagenes/telcel2.jpg</url>
+                <title>telcel2</title>
+                <filesize>24065</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
